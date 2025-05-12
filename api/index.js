@@ -13,9 +13,9 @@ app.use(express.urlencoded({ extended: true }));
 app.use('/GoTo', Main);
 
 // Root route to avoid 404
-app.get("/", (req, res) => {
-    res.send("🚀 Backend is running on Vercel!");
-  });
+// app.get("/", (req, res) => {
+//     res.send("🚀 Backend is running on Vercel!");
+//   });
   
   // Prevent favicon errors
   app.get("/favicon.ico", (req, res) => res.status(204).end());
