@@ -10,6 +10,10 @@ router.put('/UpdateUser/:id',Controller.UpdateUser);
 router.delete('/DeleteUser/:id',Controller.DeleteOne);
 router.delete('/delall',Controller.DeleteAll);
 
+router.get('/Test', (req, res) => {
+    res.send("Hello from the backend");
+  });
+
 
 module.exports=router;
 
