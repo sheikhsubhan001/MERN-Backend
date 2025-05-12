@@ -13,8 +13,8 @@ app.use(express.urlencoded({ extended: true }));
 app.use('/GoTo', Main);
 
 
-const port = 7000;
-app.listen(port, ()=>{
-    console.log("Server is Running on Port : "+port);
-})
-module.exports= app;
+// const port = 7000;
+// app.listen(port, ()=>{
+//     console.log("Server is Running on Port : "+port);
+// })
+// module.exports= app;
